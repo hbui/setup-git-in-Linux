@@ -98,15 +98,15 @@
 1.	Once logged into the potter boxes, create a new directory and make sure you are working in it:
 		
 	```
-	a.	mkdir 366
+	a.	mkdir 266
 		i.	The mkdir command makes a new directory
 			(see what directory you are currently in by using pwd command)
-	b.	cd 366
+	b.	cd 266
 		i.	The cd command changed the directory you are currently in.
 			Try typing pwd again. Typing cd .. will move you back, but don't do that now. 
 	```
 
-2.	Go to your browswer, find the 366 examples Repo on Moodle (under Resources) and click the invite link and accept it if you have not done so.
+2.	Go to your browswer, go to [https://classroom.github.com/a/OR7dto2E](https://classroom.github.com/a/OR7dto2E) accept and create your own repository.
 
 3.	Log into your GitHub account and navigate to the assignment (This is likely already up on screen already after accepting the assignment.)
 
@@ -114,7 +114,7 @@
 
 5.	Select SSH.
 
-6.	Copy the URL provided (It should be something like **git@github.com:hbui-cs366-S23/366examples...**)
+6.	Copy the URL provided (It should be something like **git@github.com:hbui-cs266-S23/test-git...**)
 
 7.	Go back to the termimal, clone a local copy using the following command
 	**git clone \<pasted URL from above>**
@@ -122,7 +122,7 @@
 	It should look similar to this:
 
 	```
-	git clone git@github.com:hbui-cs366-S23/366examples.git
+	git clone git@github.com:hbui-cs266-S23/test-git-hbui.git
 	```
 
 8.	You should have seen it do some things. Check to see if the files were cloned. 
@@ -135,21 +135,21 @@
 	```
 	
 ##Using git
-In the future, to update your class examples repo, navigate there and then use "git pull" and other git commands.
+In the future, to update your a lab repo, navigate there and then use "git pull" and other git commands.
 
 1.	Log into a potter box of your choice.
 
 2.	Navigate to the directory
 		
 	```
-	a.	cd cs366
-	b.	cd <class-examples-directory>
+	a.	cd cs266
+	b.	cd <lab repo directory>
 	c.	git pull
 	d.	If this were an assignment, you might also do the following:
-		i.	Edit/create some files (see the "vi cheatsheet" under resources)
+		i.	Edit/create some files (see the "vi tutorial and vi cheatsheet" under resources)
 			1.	Perhaps add your name as a comments to your C source file
 
-		ii.	 git add filename
+		ii.	git add filename
 		iii.	git commit filename -m "<commit message goes here>"
 		iv.	git push
 	```
