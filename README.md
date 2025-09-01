@@ -41,7 +41,8 @@
 
 3. Enter the command **cat /home/hdbui/.ssh/id_rsa.pub**
 
-	The content of the .pub file will be showed.
+	Replace **hdbui** with your id (See the output of the previous command.
+<br>The content of the .pub file will be showed.
 
 
 	```
@@ -63,8 +64,8 @@
 	+98qEovsoo0UOxJiQ== hdbui@loyola.edu
 	```
 
-4. Select and copy the content of the .pub file starting from ssh-rsa.
-5. To associate your SSH key with your GitHub account:
+5. Select and copy the content of the .pub file starting from ssh-rsa.
+6. To associate your SSH key with your GitHub account:
 	
 	```
 	a.	Log into your GitHub account
@@ -75,7 +76,7 @@
 	f.	Click Submit
 	```
 	
-6.	Configure your local git username and email in the temrinal:
+7.	Configure your local git username and email in the temrinal:
 
 	```
 	git config --global user.name "FIRST_NAME LAST_NAME"
@@ -83,7 +84,7 @@
 	
 	```
 
-7. Quickly check to see everything works correctly by running **ssh -T git@github.com** command
+8. Quickly check to see everything works correctly by running **ssh -T git@github.com** command
 
 	```
 	ssh -T git@github.com
@@ -98,15 +99,15 @@
 1.	Once logged into the potter boxes, create a new directory and make sure you are working in it:
 		
 	```
-	a.	mkdir 266
+	a.	mkdir cs312
 		i.	The mkdir command makes a new directory
 			(see what directory you are currently in by using pwd command)
-	b.	cd 266
+	b.	cd cs312
 		i.	The cd command changed the directory you are currently in.
 			Try typing pwd again. Typing cd .. will move you back, but don't do that now. 
 	```
 
-2.	Go to your browswer, go to [https://classroom.github.com/a/OR7dto2E](https://classroom.github.com/a/OR7dto2E) accept and create your own repository.
+2.	Go to back to Moodle and find lab0 assignment, accept and create your own repository.
 
 3.	Log into your GitHub account and navigate to the assignment (This is likely already up on screen already after accepting the assignment.)
 
@@ -114,7 +115,7 @@
 
 5.	Select SSH.
 
-6.	Copy the URL provided (It should be something like **git@github.com:hbui-cs266-S23/test-git...**)
+6.	Copy the URL provided (It should be something like **git@github.com:hbui-csxxxx/xxxgit...**)
 
 7.	Go back to the termimal, clone a local copy using the following command
 	**git clone \<pasted URL from above>**
@@ -122,7 +123,7 @@
 	It should look similar to this:
 
 	```
-	git clone git@github.com:hbui-cs266-S23/test-git-hbui.git
+	git clone git@github.com:hbui-cs312-F25/lab0-git-hbui.git
 	```
 
 8.	You should have seen it do some things. Check to see if the files were cloned. 
@@ -142,12 +143,12 @@ In the future, to update your a lab repo, navigate there and then use "git pull"
 2.	Navigate to the directory
 		
 	```
-	a.	cd cs266
+	a.	cd cs312
 	b.	cd <lab repo directory>
 	c.	git pull
 	d.	If this were an assignment, you might also do the following:
 		i.	Edit/create some files (see the "vi tutorial and vi cheatsheet" under resources)
-			1.	Perhaps add your name as a comments to your C source file
+			1.	Perhaps add your name as a comments to your Java source file
 
 		ii.	git add filename
 		iii.	git commit filename -m "<commit message goes here>"
