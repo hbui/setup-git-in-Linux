@@ -1,4 +1,4 @@
-## Setup Git in Linux (If you have done this in CS 312, you may skip this step)
+## Setup Git in Linux (If you have done this in another class, you may skip this step)
 
 1. Log into one of the potter boxes using ssh in moba or PuTTY (from Window) or terminal (from your Mac)
 
