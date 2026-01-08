@@ -96,7 +96,7 @@
 
 ## Testing your connection to GitHub
 
-1.	Once logged into the potter boxes, create a new directory and make sure you are working in it:
+1.	Once logged into the a linux server, create a new directory and make sure you are working in it:
 		
 	```
 	a.	mkdir cs312
