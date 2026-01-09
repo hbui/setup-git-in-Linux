@@ -1,8 +1,8 @@
 ## Setup Git in Linux (If you have done this in another class, you may skip this step)
 
-1. Log into one of the potter boxes using ssh in moba or PuTTY (from Window) or terminal (from your Mac)
+1. Log into one of the Linux machines using ssh in moba or PuTTY (from Windows) or terminal (from your Mac)
 
-2. Create a rsa key using the following command (You may use your email here):
+2. Create an RSA key using the following command (You may use your email here):
 
 	```
 	ssh-keygen -t rsa -b 4096 -C your_email@example.com
@@ -10,7 +10,7 @@
 	```
 	Press Enter when prompted to ‘‘Enter a file in which to save the key...’’ (this saves it to default location).
 
-	Optionally, enter a passphrase and re-enter (I chose to enter) and hit Return. (If you choose to enter a passphrase, 	remember it. It will be the password to unlock your RSA key.) **Please note that it will not show as you type in the 	passphrase**.
+	Optionally, enter a passphrase and re-enter it (I choose to enter) and hit Return. (If you choose to enter a passphrase, 	remember it. It will be the password to unlock your RSA key.) **Please note that it will not show as you type in the passphrase**.
 
 	This is similar to what you should see after step 2:
 	
