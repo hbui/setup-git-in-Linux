@@ -96,28 +96,26 @@
 
 ## Testing your connection to GitHub
 
-1.	Once logged into the a linux server, create a new directory and make sure you are working in it:
+1.	Once logged into a Linux server, create a new directory and make sure you are working in it:
 		
 	```
-	a.	mkdir cs312
-		i.	The mkdir command makes a new directory
-			(see what directory you are currently in by using pwd command)
-	b.	cd cs312
-		i.	The cd command changed the directory you are currently in.
-			Try typing pwd again. Typing cd .. will move you back, but don't do that now. 
+	a.	mkdir testdir
+		i.	The `mkdir` command makes a new directory
+			(see what directory you are currently in by using `pwd` command)
+	b.	cd testdir
+		i.	The `cd` command changed the directory you are currently in.
+			Try typing `pwd` again. Typing `cd ..` will move you back, but don't do that now. 
 	```
 
-2.	Go to back to Moodle and find lab0 assignment, accept and create your own repository.
+2.	Log in to your GitHub account and navigate to any repository from any assignment you had in the past
 
-3.	Log into your GitHub account and navigate to the assignment (This is likely already up on screen already after accepting the assignment.)
+3.	Click the "Code" button on the right side.
 
-4.	Click the "Code" button on the right side.
+4.	Select SSH.
 
-5.	Select SSH.
+5.	Copy the URL provided (It should be something like **git@github.com:hbui-csxxxx/xxxgit...**)
 
-6.	Copy the URL provided (It should be something like **git@github.com:hbui-csxxxx/xxxgit...**)
-
-7.	Go back to the termimal, clone a local copy using the following command
+6.	Go back to the terminal, clone a local copy using the following command
 	**git clone \<pasted URL from above>**
 	
 	It should look similar to this:
@@ -126,7 +124,7 @@
 	git clone git@github.com:hbui-cs312-F25/lab0-git-hbui.git
 	```
 
-8.	You should have seen it do some things. Check to see if the files were cloned. 
+8.	You should have seen it does some things. Check to see if the files were cloned. 
 
 	```
 	a.	ls
