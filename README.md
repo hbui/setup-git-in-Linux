@@ -134,23 +134,23 @@
 	```
 	
 ##Using git
-In the future, to update your a lab repo, navigate there and then use "git pull" and other git commands.
+In the future, to update a repo, navigate there and then use "git pull" and other git commands.
 
-1.	Log into a potter box of your choice.
+1.	Log into a Linux machine of your choice.
 
 2.	Navigate to the directory
 		
 	```
-	a.	cd cs312
-	b.	cd <lab repo directory>
-	c.	git pull
-	d.	If this were an assignment, you might also do the following:
+	a.	cd <assignment repo directory>
+	b.	git pull
+ 		i. `git pull` will pull the updates (if any) from a git repository
+	c.	If this is an assignment, you might also do the following:
 		i.	Edit/create some files (see the "vi tutorial and vi cheatsheet" under resources)
-			1.	Perhaps add your name as a comments to your Java source file
+			1.	Perhaps add your name as a comment to your Java/C/Python source file
 
 		ii.	git add filename
 		iii.	git commit filename -m "<commit message goes here>"
 		iv.	git push
 	```
 
-Hopefully, you can see your edits on GitHub and know that this worked!
+Hopefully, you can see your edits on the GitHub website and know that this worked!
